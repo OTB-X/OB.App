@@ -7,7 +7,7 @@ import dash_html_components as html
 import plotly.graph_objs as go
 from dash.dependencies import Input, Output
 
-ufc_df=pd.read_csv('/Users/mac/Desktop/bureau/Big Data & Finance/Data visualisation project /Group project/data.csv')
+ufc_df=pd.read_csv('data.csv')
 
 ufc_df.sort_values("R_fighter", inplace = True) 
 ufc_df.drop_duplicates(subset ="R_fighter", 
