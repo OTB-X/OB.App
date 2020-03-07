@@ -22,7 +22,7 @@ ufc_news= ufc_df_new[ufc_df_new.R_wins!=0]
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
+server = app.server 
 
 
 
