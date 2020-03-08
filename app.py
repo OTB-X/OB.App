@@ -10,7 +10,7 @@ from IPython.display import Image
 
 
 
-df = pd.read_csv('/Users/mac/Desktop/bureau/Big Data & Finance/Data visualisation project /Group project/Git project /OB.App-master/Data-Viz-dataset-3.csv')
+df = pd.read_csv('Data-Viz-dataset-3.csv')
 
 Lat = df["Lat"]
 Lon = df["Lon"]
